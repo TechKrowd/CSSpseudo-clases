@@ -1,0 +1,37 @@
+/* PSEUDOCLASES DE CONTENIDO */
+/*Elementos sin contenido*/
+
+/*	input:empty{
+		background-color: gainsboro; 
+	}*/
+
+/*Elementos con valor valido */
+
+	input:valid{
+		background-color: GreenYellow;
+	}
+
+/* Elementos con valor incorrecto */
+
+	input:invalid{
+		background-color: tomato;
+	}
+
+/* Elementos con valor dentro del rango indicado */
+
+	input:in-range{
+		border: solid green 2px;
+	}
+
+
+/* Elementos cuyo valor del atributo lang comience por el texto indicado entre paréntesis*/
+
+	input:lang(es){
+		border: dotted indigo 2px;
+	}
+
+/* Elementos con valor fuera del rango indicado*/
+
+	input:out-of-range{
+		border: solid red 1px;
+	}
