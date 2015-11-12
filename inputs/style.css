@@ -1,0 +1,41 @@
+input:enabled{
+	border: solid green 2px;
+}
+
+input:read-only{
+	border: solid orange 2px;
+}
+
+/* disabled también es read-only por lo que si se comenta este estilo 
+se aplicará el anterior (read-only) */
+input:disabled{
+	border: solid red 2px;
+}
+
+input:checked{
+	
+	height: 50px;
+	width: 50px;
+}
+
+input:focus{
+	background-color: gray;
+}
+
+input:required{
+	border: solid fuchsia 2px;
+}
+
+
+/* Todos los elementos que no tienen required son optional. 
+Para apreciar bien este efecto comentar read-write (ultimo estilo)*/
+
+input:optional{
+	background-color: yellow;
+}
+/* Todos los que no son read-only son read-write.
+Para apreciar bien este efecto comentar el estilo anterior (optional)*/
+input:read-write{
+	background-color: aqua;
+
+}
