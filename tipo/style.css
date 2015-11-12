@@ -1,0 +1,19 @@
+p:first-of-type{
+	border: solid red 2px; 
+}
+
+span:last-of-type{
+	border: solid green 2px;
+}
+
+p:nth-last-of-type(1){
+	border: solid orange 2px;
+}
+
+p:nth-of-type(2){
+	border: solid gray 2px;
+}
+
+div:only-of-type{
+	border: solid purple 2px;
+}
