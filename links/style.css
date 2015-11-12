@@ -1,0 +1,31 @@
+/* PSEUDOCLASES REFERENTES A LOS LINKS */
+
+
+ /* LINKS QUE NO HAN SIDO PINCHADOS */
+a:link{
+	color:orange;/*COLOR DE LETRA*/
+}
+/* LINKS QUE HAN SIDO VISITADOS*/
+a:visited{
+	color:purple;
+}
+
+/* LINKS CON EL CURSOR ENCIMA*/
+a:hover{
+	color:red;
+}
+
+/* LINKS QUE ESTÁN SIENDO PINCHADOS */
+a:active{
+	color:green; 
+}
+
+/* ANCLA ACTIVA */
+/* Hay 3 div en el documento que se activan por la pulsación de anclas 
+El div activado por el ancla será el que se muestre, el resto se ocultarán*/
+div{
+	display: none;
+}
+div:target{
+	display: block;
+}
