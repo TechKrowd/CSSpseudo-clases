@@ -1,0 +1,42 @@
+/* PSEUDO CLASES REFERENTES A LA POSICIÓN */
+
+/* PRIMER HIJO */
+
+li:first-child{
+	border: solid red 1px;
+}
+
+p:first-child{
+	border: solid red 1px;
+}
+
+/* ULTIMO HIJO */
+li:last-child{
+	border: solid blue 1px;
+}
+
+p:last-child{
+	border: solid blue 1px;
+}
+
+/* ENESIMO HIJO EMPEZANDO POR EL PRINCIPIO*/
+
+p:nth-child(3){ /* tercer hijo p */
+	border: solid green 1px;
+}
+
+/* ENESIMO HIJO EMPEZANDO POR EL FINAL */
+p:nth-last-child(3){ /* tercer hijo p empezando por el final */
+	border: solid orange 1px;
+}
+
+/* UNICO ELEMENTO HIJO*/
+/* ul es el único elemento hijo del body*/
+ul:only-child{
+	border: solid yellow 1px;
+}
+
+/* ELEMENTO RAIZ */
+:root{
+	background-color: gray;
+}
